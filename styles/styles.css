@@ -1,0 +1,143 @@
+/*CSS Styles*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: none;
+}
+header.flexbox {
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4em;
+}
+.top-bar {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+#top-bar-left {
+    margin-top: -10px;
+    margin-left: 10px
+}
+#top-bar-right {
+    margin-top: -10px;
+    margin-left: 10px
+}
+ul li {
+    margin-right: 20px;
+    
+}
+.google-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    padding-top: 10em;
+    padding-bottom: 2em;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.magnifyer {
+    padding: 1.15em;
+    height: 15px;
+}
+.search-bar{
+    border: 1px solid transparent;
+    outline: none;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+}
+.search-container:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+#account-sign-in {
+    background: #4285F4;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    padding: 9px 15px;
+    color: white;
+    text-decoration: none;
+    width: 90px;
+}
+#account-sign-in:hover {
+    background: #0764f8;
+    cursor: pointer;
+}
+footer.flexbox {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #F2F2F2;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-bar {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+#bottom-bar-left {
+    margin-top: 10px;
+    margin-left: 20px
+}
+#bottom-bar-right {
+    margin-top: 10px;
+    margin-right: 50px
+}
+.bsb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#search-button {
+    margin: 25px 10px 0px 0px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    color: #706E6C;
+    border-radius: 5%;
+}
+#lucky-button {
+    margin: 25px 10px 0px 0px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    color: #706E6C;
+    border-radius: 5%;
+}
+#search-button:hover {
+    border: 1px solid #706E6C;
+    color: black;
+    cursor: pointer;
+}
+#lucky-button:hover {
+    border: 1px solid #706E6C;
+    color: black;
+    cursor: pointer;
+}
